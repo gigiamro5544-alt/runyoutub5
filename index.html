@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+ <html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <litle>Video Gallery</litle>
+        <style>
+            nav {
+                width: 100%;
+                justify-content: center;
+                display: flex;
+            }
+            header {
+                background-color: aliceblue;
+                justify-content: center;
+
+            }
+         ul {
+            list-style: none;
+            display: flex;
+            padding: 10px 10px;
+            gap: 10px;
+         }
+         li {
+           background-color: white;
+            font-size: 20px;
+            border-radius: 6px;
+            color: bisque;
+            box-sizing: 30px;
+            width: 100px;
+            align-items: center;
+            
+         }
+         iframe {
+            width: 600px;
+            height: 500px;
+            border: none;
+            border-radius: 8px;
+            
+         }
+         .container {
+            justify-content: center;
+         }
+         .main-content {
+            align-items: center;
+         }
+
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+    <ul class="Video-List">
+            <li><a href="https://www.youtube.com/embed/WsuCWGtYJE" target="VideoForm">video 1:</a></li>
+            <li><a href="https://www.youtube.com/embed/" target="VideoForm">video 2:</a></li>
+            <li><a href="https://www.youtube.com/embed/" target="VideoForm">video 3:</a></li>
+    </ul>
+    </nav>
+</header>
+    <div class="container">
+        <h2>Video List</h2>
+        
+        <div class="main-content">
+            <iframe name="VideoFrom" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+ </html>
